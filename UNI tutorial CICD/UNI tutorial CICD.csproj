@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-UNI_tutorial_CICD-e04902d0-8140-4652-9ef1-5166f7ec1ae2</UserSecretsId>
+    <RootNamespace>UNI_tutorial_CICD</RootNamespace>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+  </ItemGroup>
+
+</Project>
